@@ -26,6 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdk 33
+    namespace = "com.xenikii.nearby_service"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
